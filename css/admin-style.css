@@ -1,0 +1,71 @@
+.best-cookies{
+    padding: 10px;
+    background-image: url('../img/best-cookies-bg.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+.best-cookies h1{
+    margin-bottom: 40px;
+}
+.best-cookies__radio{
+    margin-bottom: 20px;
+}
+.best-cookies__radio label{
+    margin-right: 30px;
+}
+.best-cookies .wp-editor-wrap{
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+.best-cookies .wp-picker-container .wp-color-result.button{
+    margin: 0 5px 0 0;
+    min-width: 112px;
+}
+.best-cookies__error{
+    color:red;
+}
+.best-cookies__form-top{
+    
+}
+.best-cookies__form-bottom.disabled{
+    pointer-events: none;
+    opacity: 0.5;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.best-cookies label,
+.best-cookies__radio p{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.best-cookies label{
+    display: inline-block;
+}
+.best-cookies label span{
+    font-size: 13px;
+}
+.best-cookies .cookie-link,
+.best-cookies .wp-picker-container{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.best-cookies .cookie-setting{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin-bottom: 20px;
+}
+.best-cookies .cookie-setting-small{
+    width: 112px;
+}
+
+@media only screen and (max-width: 640px) {
+    .best-cookies .cookie-setting{
+        width: calc(100% - 10px);
+    }
+}
